@@ -1,6 +1,6 @@
-﻿using System;
-using Microsoft.Extensions.Options;
+﻿using Microsoft.Extensions.Options;
 using ParkingTicketCalculator.Exceptions;
+using System;
 
 namespace ParkingTicketCalculator
 {

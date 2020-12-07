@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace ParkingTicketCalculator
+﻿namespace ParkingTicketCalculator
 {
     public class CarParkCharges
     {
