@@ -19,3 +19,5 @@ The entire project is done on .Net Core 3.1
 I have used the Options pattern to capture settings and calculation settings and used basic Factory pattern for loose coupling and dynamic object creation. 
 
 I have tried to follow the SOLID principles and best practices to the best of my knowledge.
+
+I have used simple MSUnit tests for the exceptions bit

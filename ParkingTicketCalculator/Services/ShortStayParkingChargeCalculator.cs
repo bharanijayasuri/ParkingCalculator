@@ -43,7 +43,7 @@ namespace ParkingTicketCalculator
             {
                 if (i.DayOfWeek == DayOfWeek.Saturday || i.DayOfWeek == DayOfWeek.Sunday)
                 {
-                    i = i.AddDays(i.DayOfWeek == DayOfWeek.Saturday ? 2 : 1).Date.AddHours(7).AddMinutes(59);
+                    i = i.AddDays(i.DayOfWeek == DayOfWeek.Saturday ? 2 : 1).Date.AddHours(8);
                     continue;
                 }
 

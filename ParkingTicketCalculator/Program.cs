@@ -26,11 +26,17 @@ namespace ParkingTicketCalculator
             var shortStayCalculator = factory.GetParkingChargeCalculator(StayType.ShortStay);
             var longStayCalculator = factory.GetParkingChargeCalculator(StayType.LongStay);
 
+            Console.WriteLine(" Short stay charge calculations");
+            Console.WriteLine("________________________________\n");
+            shortStayCalculator.CalculateAndDisplayParkingCharge(Convert.ToDateTime("2017-09-07 16:50:00"), Convert.ToDateTime("2017-09-07 18:00:00"));
             shortStayCalculator.CalculateAndDisplayParkingCharge(Convert.ToDateTime("2017-09-07 16:50:00"),Convert.ToDateTime("2017-09-09 19:15:00"));
             shortStayCalculator.CalculateAndDisplayParkingCharge(Convert.ToDateTime("2019-11-03 07:00:00"), Convert.ToDateTime("2019-11-05 11:15:00"));
 
+            Console.WriteLine(" Long stay charge calculations");
+            Console.WriteLine("________________________________\n");
             longStayCalculator.CalculateAndDisplayParkingCharge(Convert.ToDateTime("2017-09-07 19:50:00"), Convert.ToDateTime("2017-09-09 05:20:00"));
             longStayCalculator.CalculateAndDisplayParkingCharge(Convert.ToDateTime("2020-05-17 12:50:00"), Convert.ToDateTime("2020-05-17 12:51:00"));
+            longStayCalculator.CalculateAndDisplayParkingCharge(Convert.ToDateTime("2020-10-07 19:25:00"), Convert.ToDateTime("2020-10-17 12:51:00"));
 
             Console.ReadKey();
 
