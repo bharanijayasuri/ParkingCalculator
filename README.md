@@ -14,10 +14,10 @@ as test values for the Short stay car park calculation
 2020-05-17 12:50:00 To 2020-05-17 12:51:00 
 as test values for the Long stay car park calculation.
 
-The entire project is done on .Net Core 3.1
+The entire project is done on .Net Core 3.1 as a simple console application.
 
-I have used the Options pattern to capture settings and calculation settings and used basic Factory pattern for loose coupling and dynamic object creation. 
+I have used the Options pattern to capture calculation settings and used basic Factory pattern for loose coupling and dynamic object creation. 
 
 I have tried to follow the SOLID principles and best practices to the best of my knowledge.
 
-I have used simple MSUnit tests for the exceptions bit
+I have used simple MSUnit tests for the exceptions bit.
