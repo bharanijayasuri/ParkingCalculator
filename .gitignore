@@ -1,0 +1,16 @@
+
+ParkingTicketCalculator/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs
+ParkingTicketCalculator/obj/Debug/netcoreapp3.1/ParkingTicketCalculator.AssemblyInfo.cs
+ParkingTicketCalculator/obj/Debug/netcoreapp3.1/ParkingTicketCalculator.AssemblyInfoInputs.cache
+ParkingTicketCalculator/obj/Debug/netcoreapp3.1/ParkingTicketCalculator.assets.cache
+ParkingTicketCalculator/obj/Debug/netcoreapp3.1/ParkingTicketCalculator.csprojAssemblyReference.cache
+ParkingTicketCalculator/obj/ParkingTicketCalculator.csproj.nuget.dgspec.json
+ParkingTicketCalculator/obj/ParkingTicketCalculator.csproj.nuget.g.props
+ParkingTicketCalculator/obj/ParkingTicketCalculator.csproj.nuget.g.targets
+ParkingTicketCalculator/obj/project.assets.json
+ParkingTicketCalculator/obj/project.nuget.cache
+.vs/
+ParkingTicketCalculator/obj/Debug/
+ParkingTicketCalculator/obj/Release/
+ParkingTicketCalculator/bin/Debug/
+ParkingTicketCalculator/bin/Release/
