@@ -39,11 +39,11 @@ namespace ParkingTicketCalculator
         {
             var totalBillableMinutes = 0;
 
-            for (DateTime i = startTime; i <= endTime; i = i.AddMinutes(1))
+            for (DateTime i = startTime; i < endTime; i = i.AddMinutes(1))
             {
                 if (i.DayOfWeek == DayOfWeek.Saturday || i.DayOfWeek == DayOfWeek.Sunday)
                 {
-                    i = i.AddDays(i.DayOfWeek == DayOfWeek.Saturday ? 2 : 1).Date.AddHours(8);
+                    i = i.AddDays(i.DayOfWeek == DayOfWeek.Saturday ? 2 : 1).Date;
                     continue;
                 }
 
